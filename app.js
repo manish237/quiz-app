@@ -65,7 +65,7 @@ var showFeedback = function(flag,feed,stats)
 
     $('.js-response-details').append(feed)
 
-    if(stats.counter===5){
+    if(stats.counter===10){
         $('.next-button').hide()
         $('.final-button').show()
     }
