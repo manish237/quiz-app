@@ -145,7 +145,7 @@ $('.start-button').click(function(event) {
 //form page listener
 $('#js-quiz-app-form').submit(function(event) {
     event.preventDefault();
-    console.log($('input[name=quiz-ques-opt]:checked').val())
+    //console.log($('input[name=quiz-ques-opt]:checked').val())
     validateAnswer(quizQuesBank,stats,$('input[name=quiz-ques-opt]:checked').val())
 });
 
