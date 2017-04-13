@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shopping List</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="first-screen">
+      <h2>Simple Quiz App</h2>
+      <p>This app tests your ability to guess the right answer to 10 questions.</p>
+      <button class="start-button">
+        <span class="start-button-label">Start</span>
+      </button>
+    </div>
+
+    <div class="form-container">
+      <form id="js-quiz-app-form">
+        <div class="js-quiz-ques-container">
+        </div>
+        <button type="submit">Next</button>
+        <button class="start-over-button">
+          <span class="start-over-button-label">Start Over</span>
+        </button>
+      </form>
+    </div>
+
+    <div class="ques-resp-screen">
+      <h2 class="js-response"></h2>
+      <p class="js-response-details"></p>
+      <button class="next-button">
+        <span class="next-button-label">Next</span>
+      </button>
+      <button class="final-button">
+        <span class="final-button-label">Show Result</span>
+      </button>
+    </div>
+
+    <div class="result-screen">
+      <h2 class="js-result">You got 10/10 correct</h2>
+      <p>Good Job</p>
+      <button class="start-over-button">
+        <span class="start-over-button-label">Start Over</span>
+      </button>
+    </div>
+
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
